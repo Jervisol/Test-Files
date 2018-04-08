@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [WebTours_ST]">
+  <parameter name="driverPath" value="C:/Program Files (x86)/Google/Chrome/Application/chromedriver.exe"/>
+  <parameter name="browserType" value="chrome"/>
+  <listeners>
+    <listener class-name="errorCatcher.CatchListener"/>
+    <listener class-name="errorCatcher.RetryListener"/>
+  </listeners>
+  <test name="Main_Page_Test(failed)">
+    <classes>
+      <class name="cases.Webtours_tc01">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testLhz" invocation-numbers="0 0 0 0 1 1 2 2"/>
+        </methods>
+      </class> <!-- cases.Webtours_tc01 -->
+    </classes>
+  </test> <!-- Main_Page_Test(failed) -->
+</suite> <!-- Failed suite [WebTours_ST] -->

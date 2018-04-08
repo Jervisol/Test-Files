@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="232" started-at="2018-02-08T14:12:31Z" finished-at="2018-02-08T14:12:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="232" started-at="2018-02-08T14:12:31Z" finished-at="2018-02-08T14:12:31Z">
+      <class name="jdbcTest.Jdbc_TC01">
+        <test-method status="PASS" signature="query()[pri:0, instance:jdbcTest.Jdbc_TC01@6a4f787b]" name="query" duration-ms="216" started-at="2018-02-08T22:12:31Z" finished-at="2018-02-08T22:12:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- query -->
+      </class> <!-- jdbcTest.Jdbc_TC01 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

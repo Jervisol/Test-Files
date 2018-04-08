@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="WebTours_ST" parallel="none">
+  <listeners>
+      <listener class-name="errorCatcher.CatchListener"/>
+      <listener class-name="errorCatcher.RetryListener"/>    
+  </listeners>
+  <test name="Main_Page_Test">
+    <classes>
+      <class name="cases.Webtours_tc01"/>
+    </classes>
+  </test> <!-- Test -->
+  <parameter name="browserType" value="chrome"></parameter> 
+  <parameter name="driverPath" value="C:/Program Files (x86)/Google/Chrome/Application/chromedriver.exe"></parameter> 
+</suite> <!-- Suite -->
